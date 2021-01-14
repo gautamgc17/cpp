@@ -12,7 +12,7 @@ int main(){
 	
 	char *c = &b[0];
 	cout<< c <<endl;     // prints character array till null character is encountered
-	cout<< *c <<endl;
+	cout<< *c <<endl;    // on de-referencing, it reads 1 byte - so outputs 'a'
 	
 	char ch = 'A';
 	char *pch = &ch;          
