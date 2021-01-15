@@ -39,4 +39,6 @@ int main(){
 	cout<< b[0] <<endl;        // first element
 	
 	delete [] b;     // clear dynamic array
+	
+	return 0;
 }
