@@ -23,6 +23,10 @@ int main(){
 	for(int i=0; i<n; i++){
 		cin>>pa[i];
 	}
+	for(int i=0; i<n; i++){
+		cout<<pa[i]<<" ";     // Linear Array
+	}
+	cout<<endl;
 	
 	int max = -1;
 	for(int i=0; i<n; i++){
