@@ -4,7 +4,7 @@ int main(){
 	
 	// Static Allocation + Deallocation = Compiler
 	int x[100] = {0};
-	cout<< sizeof(x) <<endl;    // x = fixe sized array - 400 bytes
+	cout<< sizeof(x) <<endl;    // x = fixed sized array - 400 bytes
 	cout<< x <<endl;             // symbol table
 	// Here b cant be overwritten/reassigned ; b is part of Read Only Memory
 	
