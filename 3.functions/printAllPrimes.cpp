@@ -12,7 +12,7 @@ bool isPrime(int n){
 	return true;
 }
 
-// function to print all prime numbers upto n - uing above function
+// function to print all prime numbers upto n - using above function
 void printPrimes(int N){
 	
 	for(int i=2; i<=N; i++){
