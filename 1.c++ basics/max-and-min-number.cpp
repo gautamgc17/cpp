@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 	
-	int n;
+	int n , num;
 	cout<<"Enter upper limit: ";
 	cin>>n;
 	
@@ -11,14 +11,14 @@ int main(){
 	int min_so_far = INT_MAX;
 	    
 	for(int i=0; i<n; i++){
-		int no;
-		cin>>no;
-	    
-	    if(no > max_so_far){
-	    	max_so_far = no;
+		cin>>num;
+		
+		if(num > max_so_far){
+	    	max_so_far = num;
 		}
-		if(no < min_so_far){
-			min_so_far = no;	
+		
+	        if(num < min_so_far){
+			min_so_far = num;	
 		}
 	}
 	
