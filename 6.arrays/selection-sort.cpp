@@ -15,7 +15,7 @@ int main(){
 		int min_idx = j;
 		
 		for(int k=j; k<=n-1; k++){
-			if(arr[k] < arr[j]){
+			if(arr[k] < arr[min_idx]){
 				min_idx = k;
 			}
 		}
